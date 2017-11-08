@@ -1,0 +1,19 @@
+{
+  "name": "udp-timeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "xo --space && ava",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "moment": "^2.19.1"
+  }
+}
